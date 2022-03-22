@@ -9,11 +9,24 @@ body {
   
   .page {
     width: 1000px;
-    background-color: #292F33;
+    background-color: none;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     z-index: -1;
     
+  }
+
+  #pp{
+    margin: 10px;
+  }
+
+  #ap{
+    margin: 10px;
+  }
+
+  #ip{
+    max-width: 500px;
+    margin: 10px;
   }
   
   #bar{
@@ -23,7 +36,7 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 0;
+    z-index: 1;
   }
   
   .nav{
@@ -57,9 +70,21 @@ body {
     
   
   a:hover{
-  
     transform: scale(1.1);
     box-shadow: 5px 5px 10px black;
+  }
+
+  #intext{
+    color: rgb(0, 252, 252);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #intext:hover{
+    background-color: #8833d6;
+    transform: none;
+    box-shadow: none;
   }
   
   .box {
@@ -67,7 +92,7 @@ body {
     max-width: 700px;
     text-align: center;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 5%;
     padding: 5px;
     box-shadow: 5px 5px 10px black;
     border-radius: 5px;
@@ -79,7 +104,7 @@ body {
   
   .overlay{
     font-family: 'Anton';
-    font-size: 30px;
+    font-size: 60px;
     background-color: #8833d6;
     margin: 20px;
     padding: 15px;
@@ -88,6 +113,7 @@ body {
   
   .small-box{
     background-color: #9b55dd;
+    font-size: 30px;
     margin: 10px;
     padding: 15px;
     border-radius: 20px;
