@@ -55,6 +55,16 @@ body {
     transition: all .2s ease-in-out;
     float: left;
   }
+
+  #play{
+    float: none;
+    font-size: 75%;
+    width: 10%;
+    height: auto;
+    position: relative;
+    left: 43%;
+  }
+
   .left-sideBar{
     float: left;
     margin-top: 5px;
@@ -175,7 +185,11 @@ body {
     font-family: 'Anton';
     font-size: 15px;
     float: float;
-  }  
+  }
+  
+  #play{
+    float: none;
+  }
   
   a {
     margin-top: 200px;
@@ -234,3 +248,4 @@ body {
     font-size: 50px;
   }
   }
+  

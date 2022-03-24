@@ -1,0 +1,262 @@
+.webgl-content * {border: 0; margin: 0; padding: 0}
+.webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+
+.webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+.webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
+.webgl-content .progress .empty {background: url('progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+
+.webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
+.webgl-content .progress.Dark .empty {background-image: url('progressEmpty.Dark.png');}
+.webgl-content .progress.Dark .full {background-image: url('progressFull.Dark.png');}
+
+.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;}
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+.webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+/*Unity stuff ^^ */
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/720125609984000104/744349752388223046/blue_pixels.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-width: 2px;
+    color: #ffc7f5;
+  }
+  
+  .page {
+    width: 1000px;
+    background-color: none;
+    margin: auto;
+    margin-top: 5%;
+    z-index: -1;
+    
+  }
+
+  #pp{
+    margin: 10px;
+  }
+
+  #ap{
+    margin: 10px;
+  }
+
+  #ip{
+    max-width: 500px;
+    margin: 10px;
+  }
+  
+  #bar{
+    background-color: #000052;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+  
+  .nav{
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #8833d6;
+    color: #ffc7f5;
+    width: 5%;
+    height: 15%;
+    font-family: 'Anton';
+    font-size: 125%;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+    float: left;
+  }
+  .left-sideBar{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #292F33;
+    max-width: 300px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    }
+    
+  
+  a:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px black;
+  }
+
+  #intext{
+    color: rgb(0, 252, 252);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #intext:hover{
+    background-color: #8833d6;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .box {
+    background-color: #c2cacf;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+  }
+  
+  #Welcome{
+    font-size: 100px;
+  }
+  
+  .overlay{
+    font-family: 'Anton';
+    font-size: 60px;
+    background-color: #8833d6;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    }
+
+    .footer{
+        background-color: #8833d6;
+        margin: none;
+        padding: 5px;
+    }
+  
+  .small-box{
+    background-color: #9b55dd;
+    font-size: 30px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    }
+  
+  .subtitle{
+    font-family: 'Anton';
+    font-size: 20px;
+    margin: 10px;
+    }
+  
+  p{
+    font-family:  'Roboto Mono', monospace;
+    font-size: 15px;
+    margin: 10px;
+    }
+  
+  #project{
+     max-width: 100%; height: auto; 
+    }
+  
+  #pageTitle{
+      font-size: 30px;
+    }
+  
+  #myInfo{
+    font-size: 15px;
+    }
+  .twitter-follow-button{
+    float: left;
+    margin: 5px;
+    }
+  .twitter-mention-button{
+    float: left;
+    margin: 5px;
+    }
+    
+  #youtube{
+      float: right;
+      max-width: 250;
+      margin: 5px;
+    }
+    
+  #vids{
+      border-radius: 15px;
+      margin: auto;
+    }
+  @media screen and (max-width: 812px) {
+  #bar{
+    height: 5%;
+  }
+  
+  .nav{
+    border-radius: 5px;
+    display: block;
+    background-color: #8833d6;
+    color: #ffc7f5;
+    width: 16%;
+    font-family: 'Anton';
+    font-size: 15px;
+    float: float;
+  }  
+  
+  a {
+    margin-top: 200px;
+    margin: none;
+    }
+    
+  .left-sideBar{
+    margin: auto;
+    }
+    
+    .page{
+      max-width: 75%;
+      }
+    
+    #youtube{
+      height: auto;
+      float: none;
+      margin: auto;
+      margin-top: 200px;
+      }
+      
+      #vids{
+        width:90%;
+        height:65%;
+        border-radius: 5px;
+        float: none;
+        }
+      
+  body {
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #0c57f7;
+    color: #ffc7f5;
+  }
+  
+  .box {
+    background-color: white;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;  
+    margin-top: 200px;
+    padding: 2px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+  }
+    .overlay{
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    max-width: 100%;
+    border-radius: 5px;
+  
+    }
+    #Welcome{
+    font-size: 50px;
+  }
+  }
+  
