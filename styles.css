@@ -185,7 +185,7 @@ body {
     #menu{
       display: inline;
       position: absolute;
-      top: -475px;
+      top: -450px;
       left: 0px;
       height: 500px;
       width: 100%;
@@ -206,7 +206,7 @@ body {
     color: #ffc7f5;
     width: 80%;
     font-family: 'Anton';
-    font-size: 50px;
+    font-size: 40px;
     float: none;
     margin: 8%;
   }

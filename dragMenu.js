@@ -32,7 +32,7 @@ window.onload = function () {
         clearInterval(id);
         id = setInterval(frame, 5);
         function frame() {
-          if (mov == -475) {
+          if (mov == -450) {
             clearInterval(id);
             animation = false;
             up = true;
@@ -68,12 +68,12 @@ window.onload = function () {
         menu.addEventListener('touchend', function (ev) {
             //current mustachio position when dropped
             var y = parseInt(menu.style.top);
-            if(position > -475 && up == true && animation == false){
+            if(/*position > -475 &&*/ up == true && animation == false){
                 animation = true;
                 moveDown();
             }
 
-            if(position < 0 && up == false && animation == false){
+            if(/*position < 0 &&*/ up == false && animation == false){
                 animation = true;
                 moveUP();
             }
